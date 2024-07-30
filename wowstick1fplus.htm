@@ -2,21 +2,10 @@
 <html>
 <head>
   <title>URL Referral</title>
+  <meta http-equiv="refresh" content="0; url=https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/26be68d9-6aaf-4b45-83a7-925b9fbddebb/default.jobtemplate.mp4.480.mp4" />
 </head>
 <body>
-  <h1>Your Referral Link</h1>
-  <input type="text" id="referral-link" readonly>
-  <button onclick="generateReferralLink()">Copy Link</button>
-
-  <script>
-    function generateReferralLink() {
-      const baseUrl = 'https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/26be68d9-6aaf-4b45-83a7-925b9fbddebb/default.jobtemplate.mp4.480.mp4';
-      const referralCode = Math.random().toString(36).substring(2, 8);
-      const referralLink = `${baseUrl}?ref=${referralCode}`;
-      document.getElementById('referral-link').value = referralLink;
-      navigator.clipboard.writeText(referralLink);
-      alert('Referral link copied to clipboard!');
-    }
-  </script>
+  <h1>Watch Video</h1>
+    <a href="https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/26be68d9-6aaf-4b45-83a7-925b9fbddebb/default.jobtemplate.mp4.480.mp4" rel="noreferrer">View Video</a>
 </body>
 </html>
